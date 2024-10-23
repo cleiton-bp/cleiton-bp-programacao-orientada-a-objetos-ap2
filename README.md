@@ -1,5 +1,10 @@
 # Trabalho AP2 - Sistema de Gerenciamento de Clientes
 
+### Grupo
+- Cleiton Becker Pereira
+- Giovanna Emerim
+- Donisete Lumertz
+
 ## Descrição do Projeto
 
 Este projeto é um sistema de gerenciamento de clientes desenvolvido utilizando o Spring Framework, permite realizar operações CRUD (Create, Read, Update, Delete) em registros de clientes, além de buscar clientes por idade. O sistema é composto por três camadas principais: Controller, Service e Repository.
