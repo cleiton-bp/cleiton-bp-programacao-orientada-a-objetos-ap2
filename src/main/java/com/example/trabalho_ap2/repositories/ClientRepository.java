@@ -23,8 +23,8 @@ public class ClientRepository {
         clients.add(client);
     }
 
-    public void update(ClientModel client) {
-        clients.replaceAll(c -> c.getId().equals(client.getId()) ? client : c);
+    public void update(ClientModel modifiedClient) {
+        clients.replaceAll(client -> client.getId().equals(modifiedClient.getId()) ? modifiedClient : client);
     }
 
     public void deleteById(Long id) {

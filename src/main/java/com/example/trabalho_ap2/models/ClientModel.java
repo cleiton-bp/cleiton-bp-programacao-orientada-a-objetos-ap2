@@ -10,10 +10,10 @@ public class ClientModel {
     private String name;
     private int age;
     private String profession;
-    private static int Counter = 1;
+    private static int counter = 1;
 
     public ClientModel(String name, int age, String profession) {
-        this.id = (long) Counter++;
+        this.id = (long) counter++;
         this.name = name;
         this.age = age;
         this.profession = profession;

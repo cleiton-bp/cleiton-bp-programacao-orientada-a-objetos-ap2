@@ -17,7 +17,7 @@ public class ClientService {
         return clientRepository.findAll();
     }
 
-    public Optional<ClientModel> findById(Long id) {
+    public Optional<ClientModel> findById(long id) {
         return clientRepository.findById(id);
     }
 
@@ -25,11 +25,12 @@ public class ClientService {
         clientRepository.save(client);
     }
 
-    public void update(ClientModel client) {
+    public void update(long id, ClientModel client) {
+        client.setId(id);
         clientRepository.update(client);
     }
 
-    public void deleteById(Long id) {
+    public void deleteById(long id) {
         clientRepository.deleteById(id);
     }
 
